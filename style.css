@@ -1,0 +1,186 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html, body {
+  font-family: 'Oswald', sans-serif;
+  line-height: 1.7em;
+}
+
+a {
+  color: lavenderblush;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+/* utility classes */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.text-primary {
+  color: #EEBA94;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: lavenderblush;
+  background: #EEBA94;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #676270;
+  color: #EEBA94;
+}
+
+.btn-light {
+  background: #EEBA94;
+  color: lavenderblush;
+  border-radius: 5px;
+}
+
+.btn-light:hover {
+  background: #8F8B95;
+}
+
+.bg-dark {
+  background: #676270;
+  color: lavenderblush;
+}
+
+.clr {
+  clear: both
+}
+
+/* navbar */
+#navbar {
+  background-color: #636270;
+  overflow: auto;
+}
+
+#navbar a {
+  color: lavenderblush;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 15px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #8F8B95;
+  color: #EEBA94;
+}
+
+/* showcase */
+#showcase {
+  background: url('./img/showcase1.jpg') no-repeat center center/cover;
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  color: lavenderblush;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  line-height: 1.2em;
+  font-family: 'Noto Serif JP', serif;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.5em;
+}
+
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url('./img/chi-theater.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+.info-content h2 span {
+  color: #EEBA94;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
+
+#features .box1, .box2, .box3 {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+#features .box2 {
+  background: #EEBA94;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+#main-footer p {
+  text-align: center;
+  background: #8F8B95;
+}
